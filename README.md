@@ -1,18 +1,19 @@
-# VanPaitin Tap
+# VanPaitin Homebrew Tap
 
-## How do I install these formulae?
+## uptimev
 
-`brew install vanpaitin/tap/<formula>`
+Show how long your machine has been running in a friendly format.
 
-Or `brew tap vanpaitin/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "vanpaitin/tap"
-brew "<formula>"
+```sh
+brew install VanPaitin/tap/uptimev
+uptimev
 ```
 
-## Documentation
+Source and documentation: [VanPaitin/uptimev](https://github.com/VanPaitin/uptimev)
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+## Homebrew Bundle
+
+```ruby
+tap "VanPaitin/tap"
+brew "uptimev"
+```
