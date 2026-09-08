@@ -1,8 +1,8 @@
 # VanPaitin Homebrew Tap
 
-[uptimev](https://github.com/VanPaitin/uptimev) prints uptime and boot time in
-plain English on macOS and Linux. Requires Bash 3.2+; Linux also needs GNU `date`
-and a readable `/proc/uptime`.
+[uptimev](https://github.com/VanPaitin/uptimev) shows current time, uptime, boot
+time, and load averages on macOS and Linux. Requires Bash 3.2+; Linux also needs
+GNU `date` and readable `/proc/uptime` and `/proc/loadavg`.
 
 ## Install
 
